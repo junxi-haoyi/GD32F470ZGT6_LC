@@ -1,0 +1,14 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.associations": {
+            "gd32f4xx.h": "c",
+            "main.h": "c"
+        }
+    },
+    "extensions": {}
+}

@@ -1,0 +1,380 @@
+{
+  "name": "GD32F470ZGT6_Test",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [
+    ".eide/deps"
+  ],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": [
+      {
+        "name": "API",
+        "files": [
+          {
+            "path": "../../API/DMA.c"
+          },
+          {
+            "path": "../../API/key.c"
+          },
+          {
+            "path": "../../API/LED.c"
+          },
+          {
+            "path": "../../API/TIM.c"
+          },
+          {
+            "path": "../../API/usart.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "SRC",
+        "files": [
+          {
+            "path": "../../libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_adc.c"
+          },
+          {
+            "path": "../../libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_can.c"
+          },
+          {
+            "path": "../../libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_crc.c"
+          },
+          {
+            "path": "../../libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_ctc.c"
+          },
+          {
+            "path": "../../libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_dac.c"
+          },
+          {
+            "path": "../../libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_dbg.c"
+          },
+          {
+            "path": "../../libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_dci.c"
+          },
+          {
+            "path": "../../libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_dma.c"
+          },
+          {
+            "path": "../../libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_enet.c"
+          },
+          {
+            "path": "../../libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_exmc.c"
+          },
+          {
+            "path": "../../libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_exti.c"
+          },
+          {
+            "path": "../../libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_fmc.c"
+          },
+          {
+            "path": "../../libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_fwdgt.c"
+          },
+          {
+            "path": "../../libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_gpio.c"
+          },
+          {
+            "path": "../../libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_i2c.c"
+          },
+          {
+            "path": "../../libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_ipa.c"
+          },
+          {
+            "path": "../../libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_iref.c"
+          },
+          {
+            "path": "../../libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_misc.c"
+          },
+          {
+            "path": "../../libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_pmu.c"
+          },
+          {
+            "path": "../../libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_rcu.c"
+          },
+          {
+            "path": "../../libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_rtc.c"
+          },
+          {
+            "path": "../../libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_sdio.c"
+          },
+          {
+            "path": "../../libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_spi.c"
+          },
+          {
+            "path": "../../libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_syscfg.c"
+          },
+          {
+            "path": "../../libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_timer.c"
+          },
+          {
+            "path": "../../libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_tli.c"
+          },
+          {
+            "path": "../../libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_trng.c"
+          },
+          {
+            "path": "../../libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_usart.c"
+          },
+          {
+            "path": "../../libraries/GD32F4xx_standard_peripheral/Source/gd32f4xx_wwdgt.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "STARTUP",
+        "files": [
+          {
+            "path": "../../libraries/CMSIS/GD/GD32F4xx/Source/ARM/startup_gd32f450_470.s"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "USER",
+        "files": [
+          {
+            "path": "../../libraries/CMSIS/GD/GD32F4xx/Source/system_gd32f4xx.c"
+          },
+          {
+            "path": "../../user/gd32f4xx_it.c"
+          },
+          {
+            "path": "../../user/main.c"
+          },
+          {
+            "path": "../../user/systick.c"
+          }
+        ],
+        "folders": []
+      }
+    ]
+  },
+  "outDir": "build",
+  "deviceName": "GD32F470ZG",
+  "packDir": ".pack/GigaDevice/GD32F4xx_DFP.3.0.0",
+  "miscInfo": {
+    "uid": "7ac3fe8887410340b68f35e6c6c2e3cb"
+  },
+  "targets": {
+    "Debug": {
+      "excludeList": [],
+      "toolchain": "AC5",
+      "compileConfig": {
+        "cpuType": "Cortex-M4",
+        "floatingPointHardware": "none",
+        "useCustomScatterFile": false,
+        "scatterFilePath": "<YOUR_SCATTER_FILE>.sct",
+        "storageLayout": {
+          "RAM": [
+            {
+              "tag": "IRAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x20000000",
+                "size": "0x5000"
+              },
+              "isChecked": true,
+              "noInit": false
+            }
+          ],
+          "ROM": [
+            {
+              "tag": "IROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x08000000",
+                "size": "0x10000"
+              },
+              "isChecked": true,
+              "isStartup": true
+            }
+          ]
+        },
+        "options": "null"
+      },
+      "uploader": "OpenOCD",
+      "uploadConfig": {
+        "bin": "",
+        "target": "stm32f4x",
+        "interface": "cmsis-dap",
+        "baseAddr": "0x08000000"
+      },
+      "uploadConfigMap": {
+        "JLink": {
+          "bin": "",
+          "baseAddr": "",
+          "cpuInfo": {
+            "vendor": "GigaDevice",
+            "cpuName": "GD32F450ZG"
+          },
+          "proType": 1,
+          "speed": 8000,
+          "otherCmds": ""
+        },
+        "OpenOCD": {
+          "bin": "",
+          "target": "stm32f4x",
+          "interface": "cmsis-dap",
+          "baseAddr": "0x08000000"
+        },
+        "STLink": {
+          "bin": "",
+          "proType": "SWD",
+          "resetMode": "default",
+          "runAfterProgram": true,
+          "speed": 4000,
+          "address": "0x08000000",
+          "elFile": "None",
+          "optionBytes": ".eide/debug.st.option.bytes.ini",
+          "otherCmds": ""
+        },
+        "pyOCD": {
+          "bin": "",
+          "targetName": "cortex_m",
+          "baseAddr": "0x08000000",
+          "speed": "4M",
+          "config": ".eide/debug.pyocd.yaml"
+        },
+        "Custom": {
+          "bin": "",
+          "commandLine": "",
+          "eraseChipCommand": ""
+        }
+      },
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          ".eide/deps",
+          "../../user",
+          "../../libraries/CMSIS",
+          "../../libraries/CMSIS/GD/GD32F4xx",
+          "../../libraries/CMSIS/GD/GD32F4xx/Include",
+          "../../libraries/CMSIS/GD/GD32F4xx/Source/ARM",
+          "../../libraries/CMSIS/GD/GD32F4xx/Source",
+          "../../libraries/GD32F4xx_standard_peripheral/Include",
+          "../../libraries/GD32F4xx_standard_peripheral/Source",
+          "../../API"
+        ],
+        "libList": [],
+        "sourceDirList": [],
+        "defineList": [
+          "GD32F470",
+          "USE_STDPERIPH_DRIVER"
+        ]
+      }
+    },
+    "GD32F470ZGT6_Test": {
+      "excludeList": [],
+      "toolchain": "AC5",
+      "compileConfig": {
+        "cpuType": "Cortex-M4",
+        "floatingPointHardware": "none",
+        "useCustomScatterFile": false,
+        "scatterFilePath": "<YOUR_SCATTER_FILE>.sct",
+        "storageLayout": {
+          "RAM": [
+            {
+              "tag": "IRAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x20000000",
+                "size": "0x5000"
+              },
+              "isChecked": true,
+              "noInit": false
+            }
+          ],
+          "ROM": [
+            {
+              "tag": "IROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x08000000",
+                "size": "0x10000"
+              },
+              "isChecked": true,
+              "isStartup": true
+            }
+          ]
+        },
+        "options": "null"
+      },
+      "uploader": "OpenOCD",
+      "uploadConfig": {
+        "bin": "",
+        "target": "stm32f4x",
+        "interface": "cmsis-dap",
+        "baseAddr": "0x08000000"
+      },
+      "uploadConfigMap": {
+        "JLink": {
+          "bin": "",
+          "baseAddr": "",
+          "cpuInfo": {
+            "vendor": "GigaDevice",
+            "cpuName": "GD32F450ZG"
+          },
+          "proType": 1,
+          "speed": 8000,
+          "otherCmds": ""
+        },
+        "OpenOCD": {
+          "bin": "",
+          "target": "stm32f4x",
+          "interface": "cmsis-dap",
+          "baseAddr": "0x08000000"
+        },
+        "STLink": {
+          "bin": "",
+          "proType": "SWD",
+          "resetMode": "default",
+          "runAfterProgram": true,
+          "speed": 4000,
+          "address": "0x08000000",
+          "elFile": "None",
+          "optionBytes": ".eide/debug.st.option.bytes.ini",
+          "otherCmds": ""
+        },
+        "pyOCD": {
+          "bin": "",
+          "targetName": "cortex_m",
+          "baseAddr": "0x08000000",
+          "speed": "4M",
+          "config": ".eide/debug.pyocd.yaml"
+        },
+        "Custom": {
+          "bin": "",
+          "commandLine": "",
+          "eraseChipCommand": ""
+        }
+      },
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          ".eide/deps",
+          "../../user",
+          "../../libraries/CMSIS",
+          "../../libraries/CMSIS/GD/GD32F4xx",
+          "../../libraries/CMSIS/GD/GD32F4xx/Include",
+          "../../libraries/CMSIS/GD/GD32F4xx/Source/ARM",
+          "../../libraries/CMSIS/GD/GD32F4xx/Source",
+          "../../libraries/GD32F4xx_standard_peripheral/Include",
+          "../../libraries/GD32F4xx_standard_peripheral/Source",
+          "../../API",
+          ".cmsis/include",
+          "RTE/_GD32F470ZGT6_Test"
+        ],
+        "libList": [],
+        "sourceDirList": [],
+        "defineList": [
+          "GD32F470",
+          "USE_STDPERIPH_DRIVER"
+        ]
+      }
+    }
+  },
+  "version": "3.3"
+}
